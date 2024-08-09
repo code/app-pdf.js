@@ -51,7 +51,27 @@
       "type": "boolean",
       "default": true
     },
-    "enableML": {
+    "enableAltText": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableGuessAltText": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableAltTextModelDownload": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableNewAltTextWhenAddingImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "altTextLearnMoreUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "enableUpdatedAddImage": {
       "type": "boolean",
       "default": false
     },
